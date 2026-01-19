@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Virtual Environment
+venv/
+llm_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large files
+*.bin
+*.pt
+data/*.csv
+data/*.json
+!data/sample_data.json
+
+# OS
+.DS_Store
+
+# Personal notes
+scratch/
